@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_coffee_firebase/screens/cart.dart';
+import 'package:flutter_coffee_firebase/screens/cart/cart_screen.dart';
 import 'package:flutter_coffee_firebase/screens/categories.dart';
 import 'package:flutter_coffee_firebase/screens/home_screen.dart';
 import 'package:flutter_coffee_firebase/screens/user.dart';
@@ -16,7 +16,7 @@ class bottom_bar_screen extends StatefulWidget {
 }
 
 class _bottom_bar_screenState extends State<bottom_bar_screen> {
-  int _selectedIndex = 0;
+  int _selectedIndex = 2;
   final List<Map<String, dynamic>> _pages = [
     { 
       'page' :  Home_Page(), 

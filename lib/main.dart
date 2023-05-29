@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_coffee_firebase/provider/dark_theme_provider.dart';
 import 'package:flutter_coffee_firebase/screens/btm_bar_screen.dart';
-import 'package:flutter_coffee_firebase/screens/home_screen.dart';
-import 'package:provider/provider.dart';
+import 'package:provider/provider.dart' show ChangeNotifierProvider, Consumer, MultiProvider;
 
 import 'const/theme_data.dart';
 

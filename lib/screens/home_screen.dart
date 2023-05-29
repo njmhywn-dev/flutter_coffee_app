@@ -1,11 +1,9 @@
 import 'package:card_swiper/card_swiper.dart';
 import 'package:fancy_shimmer_image/fancy_shimmer_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_coffee_firebase/provider/dark_theme_provider.dart';
 import 'package:flutter_coffee_firebase/services/utils.dart';
 import 'package:flutter_coffee_firebase/widgets/text_widget.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:provider/provider.dart';
 
 import '../widgets/cart_coffee_widget.dart';
 import '../widgets/product_widget.dart';
